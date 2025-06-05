@@ -1,2 +1,42 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+
+
+/* Theme */
+@theme {
+    /* Colors */
+    --color-rose-50: #fff1f4;
+    --color-rose-100: #ffe4ea;
+    --color-rose-200: #fecdd8;
+    --color-rose-300: #fda4b8;
+    --color-rose-400: #fb718f;
+    --color-rose-500: #f43f67;
+    --color-rose-600: #e11d48;
+    --color-rose-700: #be1238;
+    --color-rose-800: #9f1231;
+    --color-rose-900: #88132d;
+    --color-rose-950: #4c0515;
+
+    /* Breakpoint */
+    --breakpoint-2xl: 1400px;
+    --breakpoint-3xl: 1536px;
+    --breakpoint-4xl: 1700px;
+    --breakpoint-5xl: 1920px;
+}
+
+
+
+/* Class */
+/* NV BTN */
+.nv-btn{
+    @apply focus:outline-none disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md gap-x-2.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-rose-500 hover:bg-rose-600 disabled:bg-rose-500 aria-disabled:bg-rose-500 dark:bg-rose-400 dark:hover:bg-rose-500 dark:disabled:bg-rose-400 dark:aria-disabled:bg-rose-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500 dark:focus-visible:outline-rose-400 inline-flex items-center text-lg;
+}
+
+.nv-btn--rose{
+    
+}
+
+.nv-btn--ghostGray{
+
+}
